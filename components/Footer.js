@@ -1,6 +1,6 @@
 function Footer() {
     return(
-        <p className='footer test'>brandon gunness</p>
+        <p className='footer'>brandon gunness</p>
     )
 }
 

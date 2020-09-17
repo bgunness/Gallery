@@ -2,7 +2,7 @@
 
 function IndexBody() {
     return(
-        <div className='main-image test'>
+        <div className='main-image'>
             {/* <Image /> */}
             {/* <img src='/zaeem-farooqi-phyrrah-character-page-final.jpg' /> */}
         </div>
