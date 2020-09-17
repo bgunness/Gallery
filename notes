@@ -1,0 +1,20 @@
+9/17/2020
+    - Landing page
+        - header
+            - transparent
+            - logo/brand left aligned
+            - links right aligned
+                - gallery
+                - about
+                - contact
+        - body
+            - option:
+                - centered image
+                - transparent background
+                - ? border
+            - option:
+                - centered image
+                - white background 
+                    - ? inner box shadow, emulate depth
+        - footer
+            - name, centered
