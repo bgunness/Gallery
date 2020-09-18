@@ -69,6 +69,13 @@ body {
     margin: 0;
 }
 
+.gallery-image {
+    width: 250px; /*Consider removing for mobile, adding x-margins instead (full width of device)*/
+    margin: 5px auto;
+    height: 430px;
+    text-align: center;
+}
+
 .main-image {
     width: 250px;
     margin: 5px auto;

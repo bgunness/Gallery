@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import Link from 'next/link'
 
 function Header() {
 
@@ -15,7 +16,8 @@ const barIcon = <FontAwesomeIcon className='burger' icon={faBars} />
                 <span>{barIcon}</span>
                 <div>
                     <ul className='dropdown-content'>
-                        <li>Gallery</li>
+                        <Link href='/'><a><li>Home</li></a></Link>
+                        <Link href='gallery'><a><li>Gallery</li></a></Link>
                         <li>About</li>
                         <li>Contact</li>
                     </ul>

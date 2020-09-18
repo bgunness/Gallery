@@ -24,3 +24,14 @@
             - image component
                 - onclick
                     - modal for largest view possible 
+    - Rendering
+        - gallery-body imports array of images
+            - sets state to array after mount
+            - passes state as prop to child Image component
+                - Image creates image box, loads first image in passed array
+            - render Image component
+        OR
+        - Image component imports array of images
+            - sets state to array after mount
+            - Image creates image box, loads each image 
+        - parent Gallery-Body renders Image component
