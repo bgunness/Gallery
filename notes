@@ -18,3 +18,9 @@
                     - ? inner box shadow, emulate depth
         - footer
             - name, centered
+9/18/2020
+    - Gallery body
+        - mobile
+            - image component
+                - onclick
+                    - modal for largest view possible 

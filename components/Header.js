@@ -3,7 +3,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
 
-const barIcon = <FontAwesomeIcon icon = {faBars} />
+const barIcon = <FontAwesomeIcon className='burger' icon={faBars} />
 
     return(
         <div className='header'>
@@ -13,13 +13,13 @@ const barIcon = <FontAwesomeIcon icon = {faBars} />
             </div>
             <div className='dropdown'>
                 <span>{barIcon}</span>
-                    <div>
-                        <ul className='dropdown-content'>
-                            <li>Gallery</li>
-                            <li>About</li>
-                            <li>Contact</li>
-                        </ul>
-                    </div>
+                <div>
+                    <ul className='dropdown-content'>
+                        <li>Gallery</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
             </div>
         </div>
     )
