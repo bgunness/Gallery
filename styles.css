@@ -59,6 +59,12 @@
     padding: 3px 1px;
 }
 
+.dropdown-content a,
+.dropdown-content a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -71,8 +77,7 @@ body {
 
 .gallery-image {
     width: 250px; /*Consider removing for mobile, adding x-margins instead (full width of device)*/
-    margin: 5px auto;
-    height: 430px;
+    margin: 15px auto;
     text-align: center;
 }
 
@@ -91,6 +96,7 @@ body {
 
 .image {
     width: 100%;
+    margin-top: 5px;
 }
 
 .container {

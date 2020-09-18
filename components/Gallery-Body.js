@@ -19,7 +19,6 @@ class GalleryBody extends React.Component {
     }
 
     render() {
-        // const src = this.state.images.length > 0 ? this.state.images[0].src : this.state.defaultSrc
         return(
             <div className='gallery-image'>
                 {this.state.images.length > 0 ? <Image images={this.state.images}/> : <img className='image' src={this.state.defaultSrc} />}
