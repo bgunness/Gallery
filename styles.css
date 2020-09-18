@@ -26,7 +26,15 @@
 
 .dropdown {
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.dropdown span {
+    margin-bottom: 14px;
 }
   
 .dropdown-content {
