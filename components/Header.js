@@ -18,7 +18,7 @@ const barIcon = <FontAwesomeIcon className='burger' icon={faBars} />
                     <ul className='dropdown-content'>
                         <Link href='/'><a><li>Home</li></a></Link>
                         <Link href='gallery'><a><li>Gallery</li></a></Link>
-                        <li>About</li>
+                        <Link href='about'><a><li>About</li></a></Link>
                         <li>Contact</li>
                     </ul>
                 </div>

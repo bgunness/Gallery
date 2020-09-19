@@ -81,6 +81,11 @@ body {
     text-align: center;
 }
 
+.about-image {
+    width: 95%;
+    margin: 15px auto;
+}
+
 .main-image {
     width: 250px;
     margin: 5px auto;

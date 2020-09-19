@@ -35,3 +35,16 @@
             - sets state to array after mount
             - Image creates image box, loads each image 
         - parent Gallery-Body renders Image component
+9/19/2020
+    - About 
+        - Wide image
+            - full width mobile
+            - ? reuse image component with different class
+                - add 'about' state to img on about component, set to true
+                - pass to Image componenet
+                - add 'about' state check on Image component
+                    - if true, return different class (for full width)
+                    - else return normal gallery-img layout 
+        - quote
+            - ? overlay on img
+        - self description
