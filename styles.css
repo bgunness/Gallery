@@ -76,7 +76,7 @@ body {
     margin: 0;
 }
 
-.gallery-image {
+.gallery-images {
     width: 250px; /*Consider removing for mobile, adding x-margins instead (full width of device)*/
     margin: 15px auto;
     text-align: center;

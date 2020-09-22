@@ -17,7 +17,7 @@ class GalleryBody extends React.Component {
 
     render() {
         return(
-            <div className='gallery-image'>
+            <div className='gallery-images'>
                 {this.state.images.length > 0 ? 
                     this.state.images.map(image => <Image image={image} key={image.id} />) : 
                     <img className='image' src={this.state.defaultSrc} />
