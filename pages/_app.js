@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 function Gallery({ Component, pageProps, router }) {
     return (
-        <motion.div key={router.route} initial='pageInitial' animate='pageAnimate' variants={{
+        <motion.div key={router.route} initial='pageInitial' animate='pageAnimate' transition={{duration: 0.3}} variants={{
             pageInitial: {
                 opacity: 0
             },
