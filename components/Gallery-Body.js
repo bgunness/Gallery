@@ -1,4 +1,3 @@
-// import Gallery from "../pages/gallery"
 import imageLoader from './images-array'
 import Image from './Image'
 

@@ -48,3 +48,5 @@
         - quote
             - ? overlay on img
         - self description
+9/21/2020
+    - Change css hover animation on burger to javascript
