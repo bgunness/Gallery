@@ -1,7 +1,7 @@
 import '../styles.css'
 import { motion } from 'framer-motion'
 
-function Gallery({ Component, pageProps, router }) {
+function GalleryApp({ Component, pageProps, router }) {
     return (
         <motion.div key={router.route} initial='pageInitial' animate='pageAnimate' transition={{duration: 0.3}} variants={{
             pageInitial: {
@@ -16,4 +16,4 @@ function Gallery({ Component, pageProps, router }) {
     )
 }
   
-export default Gallery;
+export default GalleryApp;

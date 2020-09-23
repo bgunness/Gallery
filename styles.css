@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-around;
     background-color: rgba(255,255,255,0.5);
-    margin: auto calc(0.5*(100vw - 250px));
+    margin: 10px calc(0.5*(100vw - 250px));
     margin-top: 30px;
 }
 
@@ -124,7 +124,8 @@ blockquote {
 }
 
 .main-image {
-    width: 250px;
+    /* width: 250px; */
+    width: 100%;
     margin: 15px auto;
     height: 70vh;
     text-align: center;
@@ -145,7 +146,7 @@ blockquote {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 
     /* background-image: url('public/zaeem-farooqi-phyrrah-character-page-final.jpg');
     background-size: cover;
@@ -174,7 +175,9 @@ blockquote {
         margin-bottom: 0;
         font-size: 2rem;
     }
-    
+    .main-image {
+        width: 400px;
+    }
     .sub {
         margin-top: 0;
         font-size: 17px;
@@ -194,7 +197,7 @@ blockquote {
         margin-top: 20px;
     }
     .main-image {
-        width: 350px;
+        /* width: 350px; */
     }
 }
 
