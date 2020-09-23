@@ -3,10 +3,16 @@
     border: 1px solid red;
 }
 /* ---------- Header */
+.navbar {
+    display: none;
+    margin-bottom: 0;
+}
 .header {
     display: flex;
     justify-content: space-around;
     background-color: rgba(255,255,255,0.5);
+    margin: auto calc(0.5*(100vw - 250px));
+    margin-top: 30px;
 }
 
 .brand {
@@ -15,11 +21,12 @@
 }
 
 .main {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .sub {
     margin-top: 0;
+    margin-bottom: 0;
     font-size: 14px;
     font-weight: 300;
 }
@@ -88,6 +95,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-top: 13px;
 }
 
 .about-image {
@@ -117,8 +125,8 @@ blockquote {
 
 .main-image {
     width: 250px;
-    margin: 5px auto;
-    height: 430px;
+    margin: 15px auto;
+    height: 70vh;
     text-align: center;
 
     background-image: url('public/zaeem-farooqi-phyrrah-character-page-final.jpg');
@@ -160,11 +168,8 @@ blockquote {
     margin-bottom: 5px;
 }
 
-/* ---------- Media Queries */
+/* ---------- Media Queries for Width*/
 @media (min-width: 430px){
-    .header {
-        margin: initial 10%;
-    }
     .main {
         margin-bottom: 0;
         font-size: 2rem;
@@ -184,17 +189,86 @@ blockquote {
     }
 }
 @media (min-width: 576px){
-
+    .header {
+        margin: 10px calc(0.5*(100vw - 350px));
+        margin-top: 20px;
+    }
+    .main-image {
+        width: 350px;
+    }
 }
 
 @media (min-width: 768px){
-    
+    .header {
+        margin: 10px calc(0.5*(100vw - 450px));
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    .main {
+        font-size: 2.3rem;
+    }
+    .sub {
+        font-size: 20px;
+    }
+    .main-image {
+        width: 450px;
+    }
+    .dropdown {
+        display: none;
+    }
+    .navbar {
+        display: block;
+        margin-top: auto;
+    }
+    .navbar {
+        list-style: none;
+        display: flex;
+    }
+    .navbar li {
+        margin: auto 0.2rem;
+    }
+    .navbar a {
+        text-decoration: none;
+        color: black;
+    }
 }
 
 @media (min-width: 992px){
-    
+    .header {
+        margin: 10px calc(0.5*(100vw - 550px));
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    .main {
+        font-size: 2.5rem;
+    }
+    .sub {
+        font-size: 24px;
+    }
+    .navbar li {
+        margin: auto 0.4rem;
+    }
+    .main-image {
+        width: 550px;
+    }
 }
 
 @media (min-width: 1200px){
-    
+    .header {
+        margin: 10px calc(0.5*(100vw - 650px));
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    .main {
+        font-size: 2.8rem;
+    }
+    .sub {
+        font-size: 25px;
+    }
+    .navbar li {
+        margin: auto 0.6rem;
+    }
+    .main-image {
+        width: 650px;
+    }
 }

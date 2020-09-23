@@ -12,10 +12,10 @@ const barIcon = <FontAwesomeIcon className='burger' icon={faBars} />
                 <h2 className='main'>ZED</h2>
                 <h3 className='sub'>Art</h3>
             </div>
-            <div className='dropdown'>
-                <span>{barIcon}</span>
+            <div className='dropdown'>  {/* Only shows on mobile */}
+                <span id='barIcon'>{barIcon}</span>
                 <div>
-                    <ul className='dropdown-content'>
+                    <ul className='dropdown-content navbar'>
                         <Link href='/'><a><li>Home</li></a></Link>
                         <Link href='gallery'><a><li>Gallery</li></a></Link>
                         <Link href='about'><a><li>About</li></a></Link>
@@ -23,6 +23,14 @@ const barIcon = <FontAwesomeIcon className='burger' icon={faBars} />
                     </ul>
                 </div>
             </div>
+                {/* Only shows on wide screens/desktop */}
+                <ul className='navbar'>
+                    <Link href='/'><a><li>Home</li></a></Link>
+                    <Link href='gallery'><a><li>Gallery</li></a></Link>
+                    <Link href='about'><a><li>About</li></a></Link>
+                    <li>Contact</li>
+                </ul>
+            
         </div>
     )
 }
