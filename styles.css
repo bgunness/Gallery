@@ -87,6 +87,7 @@ body {
     width: 250px; /*Consider removing for mobile, adding x-margins instead (full width of device)*/
     margin: 15px auto;
     text-align: center;
+    flex-grow: 1;
 }
 
 .about-body {
@@ -129,6 +130,7 @@ blockquote {
     margin: 15px auto;
     height: 70vh;
     text-align: center;
+    flex-grow: 1;
 
     background-image: url('public/zaeem-farooqi-phyrrah-character-page-final.jpg');
     background-size: cover;
@@ -196,9 +198,6 @@ blockquote {
         margin: 10px calc(0.5*(100vw - 350px));
         margin-top: 20px;
     }
-    .main-image {
-        /* width: 350px; */
-    }
 }
 
 @media (min-width: 768px){
@@ -234,6 +233,19 @@ blockquote {
         text-decoration: none;
         color: black;
     }
+    .gallery-images {
+        margin-top: 30px;
+        width: 75%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 225px);
+        gap: 25px;
+    }
+    .image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
 @media (min-width: 992px){
@@ -254,6 +266,9 @@ blockquote {
     .main-image {
         width: 550px;
     }
+    .gallery-images {
+        gap: 45px;
+    }
 }
 
 @media (min-width: 1200px){
@@ -273,5 +288,13 @@ blockquote {
     }
     .main-image {
         width: 650px;
+    }
+    .gallery-images {
+        justify-content: center;
+        width: 75%;
+        display: grid;
+        grid-template-columns: repeat(3, 265px);
+        grid-template-rows: repeat(3, 265px);
+        gap: 55px;
     }
 }

@@ -50,3 +50,10 @@
         - self description
 9/21/2020
     - Change css hover animation on burger to javascript
+9/23/2020
+    - Header changes position due to flexbox on each page (space around on container), needs to fix
+        - ? header always aligned at flex start
+        - adding flex-grow 1 to main body elements helped, Gallery route still changes slightly
+9/24/2020
+    - On gallery page, each image will have underline appear on hover 
+        - line matches dominant color in image
