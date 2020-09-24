@@ -11,7 +11,9 @@
     display: flex;
     justify-content: space-around;
     background-color: rgba(255,255,255,0.5);
-    margin: 10px calc(0.5*(100vw - 250px));
+    /* margin: 10px calc(0.5*(100vw - 250px)); */
+    width: 65%;
+    margin: 10px auto;
     margin-top: 30px;
 }
 
@@ -84,10 +86,11 @@ body {
 }
 
 .gallery-images {
-    width: 250px; /*Consider removing for mobile, adding x-margins instead (full width of device)*/
+    width: 65%; /*Consider removing for mobile, adding x-margins instead (full width of device)*/
     margin: 15px auto;
     text-align: center;
     flex-grow: 1;
+    align-content: center;
 }
 
 .about-body {
@@ -195,14 +198,16 @@ blockquote {
 }
 @media (min-width: 576px){
     .header {
-        margin: 10px calc(0.5*(100vw - 350px));
-        margin-top: 20px;
+        /* margin: 10px calc(0.5*(100vw - 350px)); */
+        /* margin-top: 20px; */
     }
 }
 
 @media (min-width: 768px){
     .header {
-        margin: 10px calc(0.5*(100vw - 450px));
+        /* margin: 10px calc(0.5*(100vw - 450px)); */
+        width: 65%;
+        margin: 10px auto;
         margin-top: 20px;
         justify-content: space-between;
     }
@@ -250,7 +255,9 @@ blockquote {
 
 @media (min-width: 992px){
     .header {
-        margin: 10px calc(0.5*(100vw - 550px));
+        /* margin: 10px calc(0.5*(100vw - 550px)); */
+        width: 75%;
+        margin: 10px auto;
         margin-top: 20px;
         justify-content: space-between;
     }
@@ -273,7 +280,9 @@ blockquote {
 
 @media (min-width: 1200px){
     .header {
-        margin: 10px calc(0.5*(100vw - 650px));
+        /* margin: 10px calc(0.5*(100vw - 650px)); */
+        width: 900px;
+        margin: 10px auto;
         margin-top: 20px;
         justify-content: space-between;
     }

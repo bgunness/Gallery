@@ -57,3 +57,6 @@
 9/24/2020
     - On gallery page, each image will have underline appear on hover 
         - line matches dominant color in image
+    - ? Fill side space of page
+        - Add simple triangle to corners
+        
